@@ -1,32 +1,35 @@
-# Projekt: World
+# Zadanie: Świat
 
-### Punktacja
-50 punktów za realizację wszystkich punktów z poniższej specyfikacji.
+| Termin oddania | Punkty     |
+|----------------|:-----------|
+| 10.06.2021    |    10      |
 
-### Czas
-Program należy umieścić w zadanym repozytorium i zaprezentować do końca zajęć
-laboratoryjnych. Pierwszeństwo w oddawaniu zadań mają studenci w większą liczbą
-dotychczas zdobytych punktów.
+--- 
+Przekroczenie terminu o **n** zajęć wiąże się z karą:
+- punkty uzyskania za realizację zadania są dzielone przez **2<sup>n</sup>**.
+
+--- 
 
 ### Zadania
-1. **[15 punktów]** Zrealizować w języku Java świat wg opisu w podkatalogach:
+1. **[3 punkty]** Zrealizować w języku Java świat wg opisu w podkatalogach:
    `World01`, `World02`, `World03` oraz `World04` znajdujących się pod adresem:
    `https://github.com/tborzyszkowski/PythonWorld/tree/master/Laboratorium`.
-   Katalogi zawierają przykładową implementcję w Pythonie. 
+   Katalogi zawierają przykładową implementację w Pythonie. 
    Udoskonalić przedstawioną tam implementację, 
-   stosując koncepcje programowania obiektowego dostępne w Java oraz odpowiednie wzorce projektowe (najmniej dwa).
+   stosując koncepcje programowania obiektowego dostępne w Java 
+   oraz odpowiednie wzorce projektowe (najmniej dwa, np. fabrykę, obserwator, odwiedzający, ...).
    
-1. **[10 punktów]** Do świata dodać nowy organizm, kosmitę. Kosmita porusza się 
+1. **[2 punkty]** Do świata dodać nowy organizm, kosmitę. Kosmita porusza się 
    o jedno pole jak król w szachach. Sam kosmita jest niewidzialny dla pozostałych 
    organizmów.
     Jego pojawienie się na danym polu powoduje, 
    że w odległości dwóch pól *zatrzymuje się czas*. 
    Kosmita pojawia się w świecie spontanicznie i także spontanicznie znika. 
    
-1. **[10 punktów]** Zbalansować reguły rządzące światem, tak by żaden gatunek nie wyginął 
+1. **[2 punkty]** Zbalansować reguły rządzące światem, tak by żaden gatunek nie wyginął 
     i dodatkowo by świat nie został zdominowany przez jeden gatunek.
    
-1. **[10 punktów]** Program wyposażyć w testy sprawdzające interakcje organizmów.
+1. **[2 punkty]** Program wyposażyć w testy sprawdzające interakcje organizmów.
 
-1. **[5 punktów]** Program powinien posiadać interfejs (tekstowy lub graficzny) pozwalający obserwować
+1. **[1 punktów]** Program powinien posiadać interfejs (tekstowy lub graficzny) pozwalający obserwować
     rozwój świata w kolejnych turach.
